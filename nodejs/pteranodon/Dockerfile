@@ -1,8 +1,8 @@
 FROM        --platform=$TARGETOS/$TARGETARCH node:18-slim
 
-LABEL       author="Linux123123" maintainer="me@linux123123.com"
+LABEL       author="IkdanYT" maintainer="ikdan@ikdan.ru"
 
-LABEL       org.opencontainers.image.source="https://github.com/linux123123/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/IkdanYT/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN         apt-get -y update
